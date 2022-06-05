@@ -1,0 +1,14 @@
+﻿@model PaginaWeb1.Models.Datoscontacto
+
+@{
+    ViewData["Title"] = "ContactenosGracias";
+}
+
+<h1>Gracias por contactarnos</h1>
+<h2>@Model.Nombre</h2>
+<p>
+    Correo:
+       @Model.Correo
+</p>
+<hr />
+<a asp-action="index">regresar</a>
